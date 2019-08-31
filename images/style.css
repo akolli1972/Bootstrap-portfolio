@@ -1,0 +1,33 @@
+#mypic{
+    height: 250px; width: 250px;
+}
+#navText{
+    float: right;
+
+}
+#footername{
+    
+    padding-bottom: 20px;
+}
+#footer{
+    padding-top: 255px;
+}
+#bodycontent{
+    max-width: 960px;
+    padding: 40px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 35px;
+
+
+
+}
+#contactform{
+    background-color: white;
+
+}
+#portfoliopage{
+    max-width: 960px;
+    margin-left: 300px;
+}

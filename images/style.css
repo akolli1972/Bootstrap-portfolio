@@ -10,11 +10,11 @@
     padding-bottom: 20px;
 }
 #footer{
-    padding-top: 255px;
+    padding-top: 360px;
 }
 #bodycontent{
     max-width: 960px;
-    padding: 40px;
+    padding: center;
     background-color: aquamarine;
     text-align: center;
     margin-left: 300px;
@@ -29,5 +29,42 @@
 }
 #portfoliopage{
     max-width: 960px;
-    margin-left: 300px;
+   margin-block: center;
+   margin: center;
+   padding: inherit;
+   text-align: center;
+}
+@media only screen and (max-width: 980px) {
+    body {
+      width: 90%;
+      margin-left: 5%;
+    }
+   ​
+    footer {
+      width: 100%;
+    } 
+   }
+   @media only screen and (max-width: 760px) {
+    body {
+      width: 90%;
+      margin-left: 5%;
+    }
+   ​
+    footer {
+      width: 100%;
+    } 
+   }
+   @media only screen and (max-width: 640px) {
+    body {
+      width: 90%;
+      margin-left: 5%;
+    }
+   ​
+    footer {
+      width: 100%;
+    } 
+   }
+
+#container{
+    
 }

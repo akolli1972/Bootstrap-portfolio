@@ -1,5 +1,6 @@
 #mypic{
-    height: 250px; width: 250px;
+    height: 450px; width: 250px;
+    padding-top: 40px;
 }
 #navText{
     float: right;
@@ -25,9 +26,6 @@
     
     font-style: italic;
     font-size: 50px;
-
-
-
 }
 #contactform{
     background-color:bisque;
@@ -75,12 +73,6 @@
     color: blue;
   }
 
-#container{
-   
-    /* display: grid;  
-    grid-template-columns: 100px 100px 100px;  
-    grid-template-rows: 50px 50px;   */
-}    
 
 .nav-wrapper{
   color:palegreen;
@@ -93,4 +85,8 @@ h5{
   font-size: 40px;
   color: blue;
   font-style: italic;
+}
+.col-sm-2{
+  height: 800px;
+  padding-top: 300px;
 }

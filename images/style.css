@@ -5,30 +5,36 @@
     float: right;
 
 }
-#footername{
-    
-    padding-bottom: 20px;
+
+.minimumHeight{
+  min-height: 575px;;
 }
-#footer{
-    padding-top: 360px;
+
+.page-footer{
+  bottom: 0;
+  width: 100%;
 }
+
 #bodycontent{
     max-width: 960px;
     padding: center;
-    background-color: aquamarine;
+    background-color:tan;
     text-align: center;
     margin-left: 300px;
-    margin-top: 35px;
+    margin-top: 50px;
+    
+    font-style: italic;
+    font-size: 50px;
 
 
 
 }
 #contactform{
-    background-color: white;
+    background-color:bisque;
 
 }
 #portfoliopage{
-    max-width: 960px;
+    max-width: 1020px;
    margin-block: center;
    margin: center;
    padding: inherit;
@@ -42,6 +48,7 @@
    ​
     footer {
       width: 100%;
+    
     } 
    }
    @media only screen and (max-width: 760px) {
@@ -64,7 +71,26 @@
       width: 100%;
     } 
    }
+  #fname, #lname, #email, #lkdn, #subject, #WorkExperience, #skills, #github, #phoneNumber{
+    color: blue;
+  }
 
 #container{
-    
+   
+    /* display: grid;  
+    grid-template-columns: 100px 100px 100px;  
+    grid-template-rows: 50px 50px;   */
+}    
+
+.nav-wrapper{
+  color:palegreen;
+
+}
+p{
+  font-size: 23px;
+}
+h5{
+  font-size: 40px;
+  color: blue;
+  font-style: italic;
 }
